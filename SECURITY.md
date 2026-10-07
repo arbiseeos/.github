@@ -1,40 +1,23 @@
-# Security Policy
+## Security
 
-## Reporting a Vulnerability
+ArbiSee takes the security of our software products and services seriously, including all of the open source code repositories managed through our GitHub organizations, such as [ArbiUI](https://github.com/arbiseeos/arbiui), [BinHardS](https://github.com/arbiseeos/binhards), [Virelium](https://github.com/arbiseeos/virelium), [LiveBatch](https://github.com/arbiseeos/livebatch).
 
-If you believe you have found a security vulnerability in an ArbiSee OS project, please report it privately rather than opening a public issue.
+## Reporting Security Issues
 
-For BinHardS, send vulnerability reports to:
+If you believe you have found a security vulnerability in any ArbiSee-owned repository, please report it to us through coordinated disclosure.
 
-security@os.arbisee.com
+**Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.**
 
-Please include enough information to reproduce and understand the issue, such as:
+Instead, please send an email to security@os.arbisee.com.
 
-- affected project and version or commit
-- affected platform or binary format, when relevant
-- steps to reproduce
-- security impact
-- proof-of-concept material, when safe to provide
-- any suggested mitigation or fix
+Please include as much of the information listed below as you can to help us better understand and resolve the issue:
 
-Please do not include credentials, private keys, or unrelated sensitive information.
+  * The type of issue (e.g., buffer overflow, SQL injection, or cross-site scripting)
+  * Full paths of source file(s) related to the manifestation of the issue
+  * The location of the affected source code (tag/branch/commit or direct URL)
+  * Any special configuration required to reproduce the issue
+  * Step-by-step instructions to reproduce the issue
+  * Proof-of-concept or exploit code (if possible)
+  * Impact of the issue, including how an attacker might exploit the issue
 
-## Coordinated Disclosure
-
-Please allow the maintainers an opportunity to investigate and address a reported vulnerability before publicly disclosing details.
-
-When a report concerns a third-party dependency or another component outside the maintainers' control, the maintainers may coordinate with the relevant upstream project.
-
-## Scope
-
-This policy covers security vulnerabilities in ArbiSee OS projects and their maintained infrastructure.
-
-For BinHardS, examples include vulnerabilities in the scanner's command-line processing, binary parsing or analysis that can cause security-impacting behavior, CI/CD or release configuration that could compromise project artifacts, and dependencies when the project is affected through its use of them.
-
-Reports about a binary being flagged or not flagged by a heuristic are generally product-quality issues unless they create a security vulnerability in the scanner or its surrounding infrastructure.
-
-## Public Issues
-
-Please avoid publishing sensitive vulnerability details in a public GitHub issue before the maintainers have had an opportunity to investigate.
-
-For non-sensitive bugs, false positives, feature requests, and other normal development issues, use the project's regular issue tracker.
+This information will help us triage your report more quickly.
