@@ -8,10 +8,13 @@ We create practical tools, libraries, services, infrastructure, and experiments 
 
 Here are some of the projects we're building and maintaining through ArbiSee OS.
 
-| Project                                                 | Type            | Language                                                                                         | Description                                                                                                                            | Status                                                                           |
-| ------------------------------------------------------- | --------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| [**BinHardS**](https://github.com/arbiseeos/binhards)   | Developer tools | ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=plastic&logo=rust&logoColor=white) | A CLI tool to inspect compiled binaries (ELF, PE, Mach-O) for security mitigations and insecure patterns.                              | [**v0.1.1**](https://github.com/arbiseeos/binhards/releases/tag/v0.1.1) Released |
-| [**LiveBatch**](https://github.com/arbiseeos/livebatch) | Infrastructure  | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=plastic&logo=go&logoColor=white)       | A lightweight, framework-agnostic middleware that dynamically batches inference requests in real time to maximize GPU/TPU utilization. | 🚧 Active Development                                                            |
+| Project             | Type                     | Language              | Description                                                                                                                            | Status                           |
+| ------------------- | ------------------------ | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| [**ArbiUI**][p5]    | Developer tools          | ![TypeScript][tslang] | Prop-driven styling layer for Tailwind CSS v4 and React.                                                                               | View [**Releases**][p5-status]   |
+| [**LiveBatch**][p4] | Infrastructure           | ![Go][golang]         | A lightweight, framework-agnostic middleware that dynamically batches inference requests in real time to maximize GPU/TPU utilization. | 🚧 Active Development            |
+| [**FuzzThat**][p3]  | Developer tools          | ![Python][pylang]     | State-Aware Smart Contract Fuzzing for EVM-based Projects.                                                                             | 🚧 Active Development            |
+| [**BinHardS**][p2]  | Developer tools          | ![Rust][rustlang]     | A CLI tool to inspect compiled binaries (ELF, PE, Mach-O) for security mitigations and insecure patterns.                              | [**v0.1.1**][p2-status] Released |
+| [**JepshSSG**][p1]  | Automation and workflows | ![JavaScript][jslang] | A static site generator for modern web frameworks with route crawling and hydration support.                                           | [**v1.0.6**][p1-status] Released |
 
 See each repository for documentation, roadmap, releases, and project-specific details.
 
@@ -50,3 +53,17 @@ Please be mindful that security-related issues should be reported through coordi
 ---
 
 ArbiSee OS — The open-source layer of [**ArbiSee**](https://arbisee.com).
+
+[p1]: https://github.com/arbiseeos/jepsh-ssg
+[p1-status]: https://www.npmjs.com/package/jepsh-ssg/v/1.0.6
+[p2]: https://github.com/arbiseeos/binhards
+[p2-status]: https://crates.io/crates/binhards/0.1.1
+[p3]: https://github.com/arbiseeos/fuzzthat
+[p4]: https://github.com/arbiseeos/livebatch
+[p5]: https://github.com/arbiseeos/arbiui
+[p5-status]: https://github.com/arbiseeos/arbiui/releases
+[jslang]: https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E
+[rustlang]: https://img.shields.io/badge/rust-%23000000.svg?style=flat&logo=rust&logoColor=white
+[pylang]: https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54
+[golang]: https://img.shields.io/badge/go-%2300ADD8.svg?style=flat&logo=go&logoColor=white
+[tslang]: https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white
