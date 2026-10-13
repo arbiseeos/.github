@@ -52,7 +52,7 @@ Please be mindful that security-related issues should be reported through coordi
 
 ---
 
-ArbiSee OS — The open-source layer of [**ArbiSee**](https://arbisee.com).
+ArbiSee OS — The open-source layer of [**ArbiSee**](https://github.com/arbiseeorg).
 
 [p1]: https://github.com/arbiseeos/jepsh-ssg
 [p1-status]: https://www.npmjs.com/package/jepsh-ssg/v/1.0.6
